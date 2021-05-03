@@ -808,7 +808,7 @@ if ( typeof Object.create !== "function" ) {
 
 		eventTypes : function(){
 			var base = this;
-			var types = ["s","e","x"];
+			
 
 			base.ev_types = {};
 
@@ -1417,11 +1417,11 @@ if ( typeof Object.create !== "function" ) {
 		singleItem : false,
 		itemsScaleUp : false,
 
-		slideSpeed : 200,
-		paginationSpeed : 800,
-		rewindSpeed : 1000,
+		slideSpeed : 2000,
+		paginationSpeed : 2000,
+		rewindSpeed : 2000,
 
-		autoPlay : false,
+		autoPlay : true,
 		stopOnHover : false,
 
 		navigation : false,
